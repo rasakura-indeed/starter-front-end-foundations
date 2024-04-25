@@ -2,6 +2,15 @@ body {
   padding: 10px;
 }
 
-input {
-  margin: 5px;
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form textarea {
+  max-width: 100% ;
+}
+
+form button {
+  width: 80px;
 }
